@@ -1,0 +1,2 @@
+Host,AllowedPorts
+127.0.0.1,80 443 8080 22
