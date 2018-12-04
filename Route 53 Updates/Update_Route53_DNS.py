@@ -47,7 +47,7 @@ def update_route53(zone, dns_action):
     except Exception as e:
         print("Error creating Route 53 record: {0}").format(e)
         sys.exit()
-    print("Success: " + inputs.host_name + ".preprodopisnet.io")
+    print("Success: " + inputs.host_name + ".domain.io")
 
 
 # Main Program Logic
